@@ -1,0 +1,5 @@
+<title>Aquí están tus mensajes</title>
+{% for tweet in tweets %}
+<h1 class={{tweet}}>{{ tweet }}!</h1>
+<a href="{{tweet}}">&#128147;</a>
+{% endfor %}
